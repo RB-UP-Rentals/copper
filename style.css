@@ -1,14 +1,3 @@
- @media screen  and (max-width: 1000px) {
-    div.profile {
-        width: 75%;
-    }
-    div.skill-row {
-        width: 75%;
-    }
-    div.contact-me {
-        width: 85%;
-    }
-  }
 
 a {
     color: #f5cda8;
