@@ -63,6 +63,18 @@ p {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
+
+  @media screen  and (max-width: 1000px) {
+    div.profile {
+        width: 75%;
+    }
+    div.skill-row {
+        width: 75%;
+    }
+    div.contact-me {
+        width: 85%;
+    }
+  }
   
   .btn:hover {
     background: #3cb0fd;
@@ -78,12 +90,13 @@ p {
     margin: 70px 0 0 0;
   }
   .contact-me {
-    width: 30%;
+    width: 35%;
     margin: 30px auto;
   }
 .copywrite{
     color: #F1EEE9;
     margin: 50px;
+    font-size: .75em;
 }
 .top-container {
     background-color: #F1EEE9;
