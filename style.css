@@ -1,3 +1,15 @@
+ @media screen  and (max-width: 1000px) {
+    div.profile {
+        width: 75%;
+    }
+    div.skill-row {
+        width: 75%;
+    }
+    div.contact-me {
+        width: 85%;
+    }
+  }
+
 a {
     color: #f5cda8;
     text-decoration: none;
@@ -63,18 +75,6 @@ p {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
   }
-
-/*   @media screen  and (max-width: 1000px) {
-    div.profile {
-        width: 75%;
-    }
-    div.skill-row {
-        width: 75%;
-    }
-    div.contact-me {
-        width: 85%;
-    }
-  } */
   
   .btn:hover {
     background: #3cb0fd;
